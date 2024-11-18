@@ -1,0 +1,12 @@
+--- makeMaze.c	2024-11-18 19:06:38.647821404 +0300
++++ makeMaze1.c	2024-11-18 19:06:44.057820374 +0300
+@@ -28,6 +28,9 @@
+ 
+ int main(int argc, char **argv)
+ {
++    if (argc > 1) {
++        ncol = nrow = strtol(argv[1], NULL, 10);
++    }
+     wall = '#', pass = '.';
+     srand(time(NULL));
+     col_nsym = 2 * nrow + 1, row_nsym = 2 * nrow + 1;
