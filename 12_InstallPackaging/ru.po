@@ -1,0 +1,71 @@
+# Russian translations for PACKAGE package.
+# Copyright (C) 2024 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#  <darian@desktop-0ki3gc1.>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-08 23:43+0300\n"
+"PO-Revision-Date: 2024-12-08 23:43+0300\n"
+"Last-Translator:  <darian@desktop-0ki3gc1.>\n"
+"Language-Team: Russian <gnu@d07.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: guess.c:19
+#, c-format
+msgid ""
+"The programm guesses number from 1 to 100. Options:\n"
+"-r -- to run with Roman numbers\n"
+"-h or --help -- to show this message\n"
+msgstr ""
+"Программа угадывает число от 1 до 100. Опции:\n"
+"-r -- для работы с римскими числами\n"
+"-h or --help -- для вывода этого сообщения\n"
+
+#: guess.c:31
+msgid "Think of a number from I to C.\n"
+msgstr "Загадайте число от I до C.\n"
+
+#: guess.c:33
+msgid "Think of a number from 1 to 100.\n"
+msgstr "Загадайте число от 1 до 100.\n"
+
+#: guess.c:38
+#, c-format
+msgid "Is your number greater than %s?\n"
+msgstr "Ваше число больше чем %s?\n"
+
+#: guess.c:40
+#, c-format
+msgid "Is your number greater than %d?\n"
+msgstr "Ваше число больше чем %d?\n"
+
+#: guess.c:45
+msgid "yes"
+msgstr "да"
+
+#: guess.c:47
+msgid "no"
+msgstr "нет"
+
+#: guess.c:50
+#, c-format
+msgid "Please answer yes or no.\n"
+msgstr "Пожалуйста отвечайте да или нет.\n"
+
+#: guess.c:54
+#, c-format
+msgid "Your number is %s.\n"
+msgstr "Ваше число - %s.\n"
+
+#: guess.c:56
+#, c-format
+msgid "Your number is %d.\n"
+msgstr "Ваше число - %d.\n"
